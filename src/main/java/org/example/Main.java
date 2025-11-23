@@ -9,9 +9,14 @@ public class Main {
         System.out.println("--------------------------------");
         bl.addBook("Hayvan Çiftliği", "George Orwell", "In Library", 13579, 1980, 386);
         bl.printList();
+        System.out.println("--------------------------------");
+        bl.addBook("Suç Ve Ceza", "Fyodor Mihailoviç Dostoyevski", "Not Available", 233444, 1866 , 688);
+
+
 
         System.out.println("--------------------------------");
-        bl.removeBook(123456789);
-        bl.printList();
+        //bl.removeBook(123456789);
+        //bl.printList();
+        bl.searchBook();
     }
 }
